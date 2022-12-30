@@ -21,6 +21,7 @@ $jobs\
 $all
 """
 add_newline = true
+command_timeout = 5000
 
 [aws]
 format = "[$symbol($profile )(\\($region\\) )(\\[$duration\\])]($style) "
